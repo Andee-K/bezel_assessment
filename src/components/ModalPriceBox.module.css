@@ -1,0 +1,73 @@
+.priceBox{
+    background-color: #f6f4f2;
+    border-radius: 26px;
+    width: 400px;
+    height: 525px;
+    box-sizing: border-box;
+    padding: 30px;
+    margin-left: 60px;
+}
+
+.header{
+    display: flex;
+    column-gap: 50px;
+    row-gap: 10px;
+}
+
+.watchTitle{
+    inline-size: 200px;
+    display: flex;
+    font-weight: normal;
+    line-height: 25px;
+    color: #1A3A32;
+}
+
+.watchCondition{
+    inline-size: 200px;
+    display: flex;
+    font-weight: normal;
+    color: #899792;
+}
+
+.watchImage{
+    width: 90px;
+    height: 90px;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+.pricing{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.pricingRow{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    color: #899792;
+}
+
+.bezelAuth{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    color: #46927e;
+}
+
+.earnings {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 30px;
+    color: #1A3A32;
+}
+
+.hzLine{
+    background-color: #dcdcd4;
+    height: 2px;
+    border-style: none;
+}
